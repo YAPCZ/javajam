@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="javajam.css">
+    <head>
+        <title>JavaJam Coffee House</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="wrapper">
+        <header>
+        <h1>JavaJam Coffee House</h1>
+        </header>
+        <nav>
+            <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/menu.html">Menu</a></li>
+            <li><a href="http://127.0.0.1:5500/music.html">Music</a></li>
+            <li><a href="http://127.0.0.1:5500/jobs.html">Jobs</a></li>
+        </nav>
+        <main>
+            <div id="herojobs"></div>
+            <h2>Jobs at JavaJam</h2>
+            <p>Want to work at JavaJam? Fill out the form
+                below to start yourapplication.</p>
+
+            <form action="https://webdevbasics.net/scripts/javajam8.php">
+                <label for="name">*Name:</label>
+                <input type="text" id="name" name="myName" required>
+                <label for="email">*Email:</label>
+                <input type="email" id="email" name="myEmail" required>
+                <label for="experience">*Experience:</label>
+                <textarea id="Experience" name="myExperience" rows="2" cols="20" required>
+                </textarea>
+                <input type="submit" id="mySubmit" value="Apply Now">
+            </form>
+        </main>
+            <footer>
+            <p>Copyright &copy; 2018 JavaJam Coffee House<br>
+            <a href="mailto:yapcz-wp23@student.tarc.edu.my">yapcz-wp23@student.tarc.edu.my</a>
+            </p>
+            </footer>
+        </div>
+    </body>
+</html>
